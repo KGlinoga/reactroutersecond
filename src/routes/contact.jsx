@@ -16,6 +16,7 @@ export default function Contact() {
                 <img
                     key={contact.avatar}
                     src={contact.avatar || null}
+                    alt="avatar"
                 />
             </div>
 
@@ -35,6 +36,7 @@ export default function Contact() {
                     <p>
                         <a
                             target="_blank"
+                            rel="noreferrer"
                             href={`https://twitter.com/${contact.twitter}`}
                         >
                             {contact.twitter}
